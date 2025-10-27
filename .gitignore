@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Model data
+*.bin
+*.pt
+*.pth
+
+# VSCode
+.vscode/
+
+# Streamlit cache
+.streamlit/
+
+# Ollama model cache (don’t upload big files)
+~/.ollama/
+
+# Logs
+*.log
